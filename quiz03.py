@@ -3,6 +3,7 @@ import csv, os
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
+
 class DB:
     def __init__(self):
         self.database = []
@@ -17,6 +18,8 @@ class DB:
         return None
 
 import copy
+
+
 class Table:
     def __init__(self, table_name, table):
         self.table_name = table_name
